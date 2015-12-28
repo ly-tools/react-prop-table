@@ -1,0 +1,33 @@
+{
+  "name": "react-doc-md",
+  "version": "0.0.1",
+  "description": "Generate react document to markdown table",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/_mocha --require should --reporter spec",
+    "test-cov": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require should",
+    "test-travis": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --require should"
+  },
+  "author": "LingyuCoder",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "~0.4.0",
+    "mocha": "~2.3.3",
+    "should": "~7.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LingyuCoder/react-doc-md"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/LingyuCoder/react-doc-md/issues"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "lodash": "~3.10.1",
+    "react-docgen": "~2.4.0"
+  }
+}
