@@ -95,7 +95,8 @@ const Component = React.createClass({
       },
       requiredFunc: () => {},
       requiredAny: false,
-      customProp: null
+      customProp: null,
+      notDefinedProp: null
     };
   }
 });
