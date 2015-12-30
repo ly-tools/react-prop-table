@@ -6,18 +6,18 @@ const tablify = require('./lib/mdtableify');
 module.exports = source => {
   return tablify(getValueInfo(source), [{
     name: 'name',
-    align: 'left'
+    align: ':---'
   }, {
     name: 'description',
-    align: 'left'
+    align: ':---'
   }, {
     name: 'type',
-    align: 'center'
+    align: ':---:'
   }, {
     name: 'required',
-    align: 'center'
+    align: ':---:'
   }, {
     name: 'defaultValue',
-    align: 'center'
+    align: ':---:'
   }]);
 };
