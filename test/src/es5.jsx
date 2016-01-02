@@ -57,10 +57,7 @@ const Component = React.createClass({
     /**
      * Description of optionalObjectWithShape.
      */
-    optionalObjectWithShape: React.PropTypes.shape({
-      color: React.PropTypes.string.isRequired,
-      fontSize: React.PropTypes.number
-    }),
+    optionalObjectWithShape: React.PropTypes.shape({color: React.PropTypes.string.isRequired, fontSize: React.PropTypes.number}),
     /**
      * Description of requiredFunc.
      */
@@ -87,7 +84,9 @@ const Component = React.createClass({
       optionalMessage: null,
       optionalEnum: 'News',
       optionalUnion: null,
-      optionalArrayOf: ['1', '2', 3],
+      optionalArrayOf: [
+        1, 2, 3
+      ],
       optionalObjectOf: {},
       optionalObjectWithShape: {
         color: 'red',

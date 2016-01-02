@@ -1,7 +1,7 @@
 {
-  "name": "react-doc-md",
+  "name": "react-prop-table",
   "version": "0.0.1",
-  "description": "Generate react document to markdown table",
+  "description": "Parse react source file and generate html or markdown table",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/_mocha --require should --reporter spec",
@@ -17,17 +17,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LingyuCoder/react-doc-md"
+    "url": "https://github.com/LingyuCoder/react-prop-table"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/LingyuCoder/react-doc-md/issues"
+    "url": "https://github.com/LingyuCoder/react-prop-table/issues"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
   "dependencies": {
+    "html-tableify": "0.0.2",
+    "humanize-proptype": "0.0.3",
     "lodash": "~3.10.1",
+    "markdown-tableify": "0.0.1",
     "react-docgen": "~2.4.0"
   }
 }

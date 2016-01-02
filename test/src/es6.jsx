@@ -93,7 +93,7 @@ Component.defaultProps = {
   optionalEnum: 'News',
   optionalUnion: null,
   optionalArrayOf: [
-    '1', '2', 3
+    1, 2, 3
   ],
   optionalObjectOf: {},
   optionalObjectWithShape: {
@@ -102,6 +102,7 @@ Component.defaultProps = {
   },
   requiredFunc: () => {},
   requiredAny: false,
-  customProp: null
+  customProp: null,
+  notDefinedProp: null
 };
 module.exports = Component;

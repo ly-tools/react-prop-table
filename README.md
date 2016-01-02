@@ -1,21 +1,72 @@
-# react-doc-md
+# react-prop-table
 
-[![Test coverage](https://img.shields.io/coveralls/LingyuCoder/react-doc-md.svg?style=flat-square)](https://coveralls.io/r/LingyuCoder/react-doc-md?branch=master)
-[![Build Status](https://travis-ci.org/LingyuCoder/react-doc-md.png)](https://travis-ci.org/LingyuCoder/react-doc-md)
-[![Dependency Status](https://david-dm.org/LingyuCoder/react-doc-md.svg)](https://david-dm.org/LingyuCoder/react-doc-md)
-[![devDependency Status](https://david-dm.org/LingyuCoder/react-doc-md/dev-status.svg)](https://david-dm.org/LingyuCoder/react-doc-md#info=devDependencies)
-[![NPM version](http://img.shields.io/npm/v/react-doc-md.svg?style=flat-square)](http://npmjs.org/package/react-doc-md)
+[![Test coverage](https://img.shields.io/coveralls/LingyuCoder/react-prop-table.svg?style=flat-square)](https://coveralls.io/r/LingyuCoder/react-prop-table?branch=master)
+[![Build Status](https://travis-ci.org/LingyuCoder/react-prop-table.png)](https://travis-ci.org/LingyuCoder/react-prop-table)
+[![Dependency Status](https://david-dm.org/LingyuCoder/react-prop-table.svg)](https://david-dm.org/LingyuCoder/react-prop-table)
+[![devDependency Status](https://david-dm.org/LingyuCoder/react-prop-table/dev-status.svg)](https://david-dm.org/LingyuCoder/react-prop-table#info=devDependencies)
+[![NPM version](http://img.shields.io/npm/v/react-prop-table.svg?style=flat-square)](http://npmjs.org/package/react-prop-table)
 [![node](https://img.shields.io/badge/node.js-%3E=_4.0-green.svg?style=flat-square)](http://nodejs.org/download/)
-[![License](http://img.shields.io/npm/l/react-doc-md.svg?style=flat-square)](LICENSE)
-[![npm download](https://img.shields.io/npm/dm/react-doc-md.svg?style=flat-square)](https://npmjs.org/package/react-doc-md)
+[![License](http://img.shields.io/npm/l/react-prop-table.svg?style=flat-square)](LICENSE)
+[![npm download](https://img.shields.io/npm/dm/react-prop-table.svg?style=flat-square)](https://npmjs.org/package/react-prop-table)
 
-Generate react document to markdown table
+Parse react source file and generate html or markdown table
 
 **Coming soon**
 
-## Installation
+## Install
+
+```bash
+$ npm install --save react-prop-table
+```
+
+```javascript
+const docer = require('react-doc-md');
+docer.html(source, config);
+docer.markdown(source, config);
+```
 
 ## Usage
+
+### ES5 Example
+
+See [ES5 Example](test/src/es5.jsx)
+
+### ES6 Example
+
+See [ES6 Example](test/src/es6.jsx)
+
+### `.html(source, config)`
+
+* source:String => JSX source code
+* config:Object => configuration
+  * config.tidy:Boolean => Tidy the result html or not
+  * config.headers:Array(Object) => Headers config
+    * header.name:String => key in data object
+    * header.align:Enum('left'|'right'|'center') => text align of the column
+    * header.title:String => title of the column
+
+```javascript
+const docer = require('react-prop-table');
+docer.html(source);
+```
+
+Result see [html result](test/result/table.html)
+
+### `.markdown(soure, config)`
+
+* source:String => JSX source code
+* config:Object => configuration
+  * config.headers:Array(Object) => Headers config
+    * header.name:String => key in data object
+    * header.align:String => text align of the column
+    * header.title:String => title of the column
+
+```javascript
+const docer = require('react-prop-table');
+docer.markdown(source);
+```
+
+Result see [markdown result](test/result/table.md)
 
 ## Test
 

@@ -1,0 +1,153 @@
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Name</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: center">Type</th>
+      <th style="text-align: center">Required</th>
+      <th style="text-align: center">Default Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">optionalArray</td>
+      <td style="text-align: left">Description of optionalArray.</td>
+      <td style="text-align: center">Array</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>[]</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalBool</td>
+      <td style="text-align: left">Description of optionalBool.</td>
+      <td style="text-align: center">Boolean</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>false</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalFunc</td>
+      <td style="text-align: left">Description of optionalFunc.</td>
+      <td style="text-align: center">Function</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>() => {}</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalNumber</td>
+      <td style="text-align: left">Description of optionalNumber.</td>
+      <td style="text-align: center">Number</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>123</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalObject</td>
+      <td style="text-align: left">Description of optionalObject.</td>
+      <td style="text-align: center">Object</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>{}</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalString</td>
+      <td style="text-align: left">Description of optionalString.</td>
+      <td style="text-align: center">String</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>'abc'</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalNode</td>
+      <td style="text-align: left">Description of optionalNode.</td>
+      <td style="text-align: center">Node</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>null</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalElement</td>
+      <td style="text-align: left">Description of optionalElement.</td>
+      <td style="text-align: center">Element</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>null</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalMessage</td>
+      <td style="text-align: left">Description of optionalMessage.</td>
+      <td style="text-align: center">Class(Message)</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>null</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalEnum</td>
+      <td style="text-align: left">Description of optionalEnum.</td>
+      <td style="text-align: center">'News'│'Photos'</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>'News'</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalUnion</td>
+      <td style="text-align: left">Description of optionalUnion.</td>
+      <td style="text-align: center">String│Number│Class(Message)</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>null</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalArrayOf</td>
+      <td style="text-align: left">Description of optionalArrayOf.</td>
+      <td style="text-align: center">Array(Number)</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>[  1, 2, 3]</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalObjectOf</td>
+      <td style="text-align: left">Description of optionalObjectOf.</td>
+      <td style="text-align: center">ObjectOf(Number)</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>{}</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionalObjectWithShape</td>
+      <td style="text-align: left">Description of optionalObjectWithShape.</td>
+      <td style="text-align: center">{"color":"String","fontSize":"Number"}</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>{  color: 'red',  fontSize: 14}</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└─ optionalObjectWithShape.color</td>
+      <td style="text-align: left"></td>
+      <td style="text-align: center">String</td>
+      <td style="text-align: center">√</td>
+      <td style="text-align: center"><code>red</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└─ optionalObjectWithShape.fontSize</td>
+      <td style="text-align: left"></td>
+      <td style="text-align: center">Number</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>14</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">requiredFunc</td>
+      <td style="text-align: left">Description of requiredFunc.</td>
+      <td style="text-align: center">Function</td>
+      <td style="text-align: center">√</td>
+      <td style="text-align: center"><code>() => {}</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">requiredAny</td>
+      <td style="text-align: left">Description of requiredAny.</td>
+      <td style="text-align: center">Any</td>
+      <td style="text-align: center">√</td>
+      <td style="text-align: center"><code>false</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">customProp</td>
+      <td style="text-align: left">Description of customProp.</td>
+      <td style="text-align: center">Custom(Function)</td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>null</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">notDefinedProp</td>
+      <td style="text-align: left"></td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"></td>
+      <td style="text-align: center"><code>null</code></td>
+    </tr>
+  </tbody>
+</table>
