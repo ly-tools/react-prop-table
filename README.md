@@ -29,11 +29,11 @@ docer.markdown(source, config);
 
 ### ES5 Example
 
-See [ES5 Example](test/src/es5.jsx)
+See [ES5 source example](test/src/es5.jsx)
 
 ### ES6 Example
 
-See [ES6 Example](test/src/es6.jsx)
+See [ES6 source example](test/src/es6.jsx)
 
 ### `.html(source, config)`
 
@@ -50,7 +50,7 @@ const docer = require('react-prop-table');
 docer.html(source);
 ```
 
-Result see [html result](test/result/table.html)
+Result see [HTML table](test/result/table.html)
 
 ### `.markdown(source, config)`
 
@@ -66,7 +66,7 @@ const docer = require('react-prop-table');
 docer.markdown(source);
 ```
 
-Result see [markdown result](test/result/table.md)
+Result see [markdown table](test/result/table.md)
 
 ## Test
 
