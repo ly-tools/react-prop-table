@@ -52,7 +52,7 @@ docer.html(source);
 
 Result see [html result](test/result/table.html)
 
-### `.markdown(soure, config)`
+### `.markdown(source, config)`
 
 * source:String => JSX source code
 * config:Object => configuration
