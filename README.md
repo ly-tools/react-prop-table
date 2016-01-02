@@ -20,9 +20,9 @@ $ npm install --save react-prop-table
 ```
 
 ```javascript
-const docer = require('react-doc-md');
-docer.html(source, config);
-docer.markdown(source, config);
+const Docer = require('react-doc-md');
+Docer.html(source, config);
+Docer.markdown(source, config);
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ See [ES5 source example](test/src/es5.jsx)
 
 See [ES6 source example](test/src/es6.jsx)
 
-### `.html(source, config)`
+### `Docer.html(source, config)`
 
 * source:String => JSX source code
 * config:Object => configuration
@@ -46,13 +46,13 @@ See [ES6 source example](test/src/es6.jsx)
     * header.title:String => title of the column
 
 ```javascript
-const docer = require('react-prop-table');
-docer.html(source);
+const Docer = require('react-prop-table');
+Docer.html(source);
 ```
 
 Result see [HTML table](test/result/table.html)
 
-### `.markdown(source, config)`
+### `Docer.markdown(source, config)`
 
 * source:String => JSX source code
 * config:Object => configuration
@@ -62,8 +62,8 @@ Result see [HTML table](test/result/table.html)
     * header.title:String => title of the column
 
 ```javascript
-const docer = require('react-prop-table');
-docer.markdown(source);
+const Docer = require('react-prop-table');
+Docer.markdown(source);
 ```
 
 Result see [markdown table](test/result/table.md)
