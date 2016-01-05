@@ -1,6 +1,6 @@
 {
   "name": "react-prop-table",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Parse react source file and generate html or markdown table",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,13 @@
     "type": "git",
     "url": "https://github.com/LingyuCoder/react-prop-table"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "proptype",
+    "table",
+    "markdown",
+    "html"
+  ],
   "bugs": {
     "url": "https://github.com/LingyuCoder/react-prop-table/issues"
   },
