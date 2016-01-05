@@ -1,6 +1,6 @@
 {
   "name": "react-prop-table",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse react source file and generate html or markdown table",
   "main": "index.js",
   "scripts": {

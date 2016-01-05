@@ -77,7 +77,11 @@ Component.propTypes = {
   /**
    * Description of customProp.
    */
-  customProp: function(props, propName, componentName) {}
+  customProp: function(props, propName, componentName) {},
+  /**
+   * Description of noDefaultValueProp.
+   */
+  noDefaultValueProp: React.PropTypes.string
 };
 
 Component.defaultProps = {
