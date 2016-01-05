@@ -19,5 +19,5 @@
 | requiredFunc | Description of requiredFunc. | Function | √ | `() => {}` |
 | requiredAny | Description of requiredAny. | Any | √ | `false` |
 | customProp | Description of customProp. | Custom(Function) |  | `null` |
-| noDefaultValueProp | Description of noDefaultValueProp. | String |  | `` |
+| noDefaultValueProp | Description of noDefaultValueProp. | String |  |  |
 | notDefinedProp |  |  |  | `null` |
