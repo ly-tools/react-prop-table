@@ -11,8 +11,6 @@
 
 Parse react source file and generate html or markdown or cli table
 
-**Coming soon**
-
 ## Install
 
 ```bash
