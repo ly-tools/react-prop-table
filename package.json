@@ -1,6 +1,6 @@
 {
   "name": "react-prop-table",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Parse react source file and generate html or markdown table",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "devDependencies": {
     "istanbul": "~0.4.0",
     "mocha": "~2.3.3",
-    "should": "~7.1.1"
+    "should": "~7.1.1",
+    "uncolor": "^0.4.0"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
     "proptype",
     "table",
     "markdown",
-    "html"
+    "html",
+    "cli"
   ],
   "bugs": {
     "url": "https://github.com/LingyuCoder/react-prop-table/issues"
@@ -33,6 +35,7 @@
     "registry": "http://registry.npmjs.org/"
   },
   "dependencies": {
+    "cli-table2": "^0.1.9",
     "html-tableify": "0.0.2",
     "humanize-proptype": "0.0.3",
     "lodash": "~3.10.1",

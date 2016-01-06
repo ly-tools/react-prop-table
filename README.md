@@ -9,7 +9,7 @@
 [![License](http://img.shields.io/npm/l/react-prop-table.svg?style=flat-square)](LICENSE)
 [![npm download](https://img.shields.io/npm/dm/react-prop-table.svg?style=flat-square)](https://npmjs.org/package/react-prop-table)
 
-Parse react source file and generate html or markdown table
+Parse react source file and generate html or markdown or cli table
 
 **Coming soon**
 
@@ -23,6 +23,7 @@ $ npm install --save react-prop-table
 const Docer = require('react-doc-md');
 Docer.html(source, config);
 Docer.markdown(source, config);
+Docer.cli(source, config);
 ```
 
 ## Usage
@@ -67,6 +68,23 @@ Docer.markdown(source);
 ```
 
 Result see [markdown table](test/result/table.md)
+
+### `Docer.cli(source, config)`
+
+* source:String => JSX source code
+* config:Object => configuration
+  * config.headers:Array(Object) => Headers config
+    * header.name:String => key in data object
+    * header.align:String => text align of the column
+    * header.title:String => title of the column
+    * header.width:Number => Width of the column
+
+```javascript
+const Docer = require('react-prop-table');
+Docer.cli(source);
+```
+
+Result see [cli table](test/result/table.cli)
 
 ## Test
 
