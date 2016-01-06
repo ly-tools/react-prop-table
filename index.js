@@ -66,7 +66,7 @@ const DEFAULT_CLI_CONFIG = {
     align: 'center'
   }, {
     name: 'required',
-    width: 3,
+    width: 10,
     align: 'center'
   }, {
     name: 'defaultValue',
