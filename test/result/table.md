@@ -1,5 +1,6 @@
 | Name | Description | Type | Required | Default Value |
 | :--- | :----- | :--- | :---: | :---: |
+| multilineProp | Description of multilineProp. This should be multiline Anything else ? | String |  |  |
 | optionalArray | Description of optionalArray. | Array |  | `[]` |
 | optionalBool | Description of optionalBool. | Boolean |  | `false` |
 | optionalFunc | Description of optionalFunc. | Function |  | `() => {}` |

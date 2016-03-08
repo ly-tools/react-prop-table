@@ -11,6 +11,17 @@ class Component extends React.Component {
 
 Component.propTypes = {
   /**
+   * [private]
+   * Description of multilineProp.
+   */
+  privateProp: React.PropTypes.string,
+  /**
+   * Description of multilineProp.
+   * This should be multiline
+   * Anything else ?
+   */
+  multilineProp: React.PropTypes.string,
+  /**
    * Description of optionalArray.
    */
   optionalArray: React.PropTypes.array,
