@@ -1,9 +1,9 @@
 # react-prop-table
 
-[![Test coverage](https://img.shields.io/coveralls/LingyuCoder/react-prop-table.svg?style=flat-square)](https://coveralls.io/r/LingyuCoder/react-prop-table?branch=master)
-[![Build Status](https://travis-ci.org/LingyuCoder/react-prop-table.png)](https://travis-ci.org/LingyuCoder/react-prop-table)
-[![Dependency Status](https://david-dm.org/LingyuCoder/react-prop-table.svg)](https://david-dm.org/LingyuCoder/react-prop-table)
-[![devDependency Status](https://david-dm.org/LingyuCoder/react-prop-table/dev-status.svg)](https://david-dm.org/LingyuCoder/react-prop-table#info=devDependencies)
+[![Test coverage](https://img.shields.io/coveralls/ly-tools/react-prop-table.svg?style=flat-square)](https://coveralls.io/r/ly-tools/react-prop-table?branch=master)
+[![Build Status](https://travis-ci.org/ly-tools/react-prop-table.png)](https://travis-ci.org/ly-tools/react-prop-table)
+[![Dependency Status](https://david-dm.org/ly-tools/react-prop-table.svg)](https://david-dm.org/ly-tools/react-prop-table)
+[![devDependency Status](https://david-dm.org/ly-tools/react-prop-table/dev-status.svg)](https://david-dm.org/ly-tools/react-prop-table#info=devDependencies)
 [![NPM version](http://img.shields.io/npm/v/react-prop-table.svg?style=flat-square)](http://npmjs.org/package/react-prop-table)
 [![node](https://img.shields.io/badge/node.js-%3E=_4.0-green.svg?style=flat-square)](http://nodejs.org/download/)
 [![License](http://img.shields.io/npm/l/react-prop-table.svg?style=flat-square)](LICENSE)
