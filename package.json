@@ -1,6 +1,6 @@
 {
   "name": "react-prop-table",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Parse react source file and generate html or markdown table",
   "main": "index.js",
   "scripts": {
@@ -41,6 +41,6 @@
     "humanize-proptype": "0.0.3",
     "lodash": "~3.10.1",
     "markdown-tableify": "0.0.4",
-    "react-docgen": "~2.4.0"
+    "react-docgen": "~2.14.0"
   }
 }
