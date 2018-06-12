@@ -4,7 +4,7 @@ const getValueInfo = require('./lib/getValueInfo');
 const _ = require('lodash');
 const htmlTableify = require('html-tableify');
 const markdownTableify = require('markdown-tableify');
-const cliTableify = require('cli-table2');
+const cliTableify = require('cli-table3');
 const DEFAULT_MARKDOWN_CONFIG = {
   type: 'markdown',
   afterParse: () => {},
