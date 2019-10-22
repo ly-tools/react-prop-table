@@ -39,7 +39,7 @@
     "cli-table2": "^0.1.9",
     "html-tableify": "0.0.2",
     "humanize-proptype": "0.0.3",
-    "lodash": "~3.10.1",
+    "lodash": "~4.17.15",
     "markdown-tableify": "0.0.4",
     "react-docgen": "~2.4.0"
   }
